@@ -1,0 +1,61 @@
+#demo{
+    background-color:gray;
+        text-shadow:4px 4px 4px red;
+}
+h1{
+font-size:50px;
+font-family:Cooper;
+text-align:center;
+}
+img{
+    margin:-5px;
+    height:100px;
+    width:100px;
+
+}
+
+ul{
+    
+   overflow:auto;
+   background-color:black ;
+    border-radius:10px;
+
+}
+li{
+        float:right;
+    font-family:Cooper;
+    font-size:30px;
+    color:white;
+    list-style-type:none;
+    padding:10px;
+    margin:10px;
+}
+li:hover{
+    color:red;
+    font-family: 'Gill Sans';
+}
+#demo2{
+    width:200px;
+    height:200px;
+    padding:20px;
+    background-color:gray;
+    border:3px solid black
+
+}
+h2{
+    text-align:center;
+}
+h2:hover{
+    font-size:20px;
+    background-color:blue;
+    color:white;
+}
+h3{
+    text-align:center;
+}
+h3:hover{
+    color:red;
+}
+a{
+    text-decoration:none;
+}

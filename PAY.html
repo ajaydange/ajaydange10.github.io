@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <style>
+            h1{
+                font-size:30px;
+                background-color: white;
+                text-shadow:4px 2px 5px red;
+            }
+            h1:hover{
+                color:blue;
+                text-shadow:4px 2px 2px gray;
+            }
+        
+            h2{
+                font-size:30px;
+                text-shadow:4px 2px 5px red;
+            
+                background-color: white;
+            }
+            
+            h2:hover{
+                color:blue;
+                text-shadow:4px 2px 2px gray;
+            }
+                    table{
+
+                
+                border:2px solid red;
+                height: 400px;
+                width: 400px;
+                background-color:gray;
+                padding:20px;
+              
+         
+            }
+            input{
+                border-radius: 10px;
+                padding:5px;
+               
+            }
+            input:hover{
+                font-size:15px;
+            }
+            #inp{
+
+            }
+            tab{
+                height:400px;
+                width:400px;
+                background-color:gray;
+            }
+            img{
+                height:70px;
+                width: 130px;
+            }
+            body{
+                background-color:lightslategray;
+            }
+
+        </style>
+    </head>
+    <body bgcolor="whitesmoke">
+        <center>
+            <table border="1">
+        
+            <tr><td><h1>Confirm Your Payment</h1></td></tr>
+                
+       
+        
+           <tr><td> Name:-<input type="text" placeholder="Enter your full name"></td></tr>
+
+           <tr><td>Pin-code:-<input type="number" placeholder="Enter your pin-code"></td></tr>
+                       
+            <tr><td>State:-<input type="text" placeholder="Enter your State"></td></tr>
+
+            <tr><td>City:-<input type="text" placeholder="Enter your City"></td></tr>
+       
+       
+        <tr><td>House:-<input type="text" placeholder="house no,Building name"></td></tr>
+            <tr>
+                <td> Area:-<input type="text" placeholder="Road name,Area,Colony"></td>
+            </tr>
+           <tr>
+               <td> Date:-<input type="date" ></td>
+            </tr>
+            <tr>
+                <td> Time:-<input type="time" ></td>
+             </tr>
+           
+        </table>
+           <table border="1" id="tab">
+               <tr><td colspan="2"><h2>Payment-Process</h2></td></tr>
+           <tr>
+               <td>
+                   <input type="radio" name="r1"id="inp">UPI
+               </td>
+               <td><img src="UPI1.jpg"></td>
+           </tr>
+           <tr>
+            <td>
+                <input type="radio" name="r1">Wallets
+            </td>
+        </td>
+        <td><img src="paytm.jpg"></td>
+        </tr>
+        <tr>
+            <td>
+               <input type="radio" name="r1"> Credit/Debit/Atm card
+            </td>
+        </td>
+        <td><img src="atm.jpg"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio"  name="r1">Net-Banking
+               
+            </td>
+        </td>
+        <td><img src="banking.jpg"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio"  name="r1">Cash-on-Delivary
+            </td>
+        </td>
+        <td><img src="cash.png"></td>
+        </tr>
+             
+        </table>
+       
+    </center>
+    </body>
+    </html>
